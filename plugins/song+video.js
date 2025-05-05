@@ -17,7 +17,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-🌟 *CIARA II SONG DOWNLOADER* 
+🔴 *CIARA II SONG DOWNLOADER* 🔴
 
 tittle: ${data.tittle}
 description: ${data.description}
@@ -64,7 +64,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-🌟 *CIARA II VIDEO DOWNLOADER* 🌟
+🔴 *CIARA II VIDEO DOWNLOADER* 🔴
 
 tittle: ${data.tittle}
 description: ${data.description}
