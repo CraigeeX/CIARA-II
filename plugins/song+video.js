@@ -17,7 +17,7 @@ const data = search.videos[0];
 const url = data.url
 
 let desc = `
-🌟 *CIARA II SONG DOWNLOADER* 🌟
+🌟 *CIARA II SONG DOWNLOADER* 
 
 tittle: ${data.tittle}
 description: ${data.description}
@@ -25,7 +25,7 @@ time: ${data.timestamps}
 ago: ${data.ago}
 views: ${data.views}
 
-MADE BY CraigeeX 💚
+> Created by CraigeeX🌹
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption::desc},{quoted:mek})
 
@@ -72,7 +72,7 @@ time: ${data.timestamps}
 ago: ${data.ago}
 views: ${data.views}
 
-MADE BY CraigeeX 💚
+> Created by CraigeeX🌹
 `
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption::desc},{quoted:mek})
 
