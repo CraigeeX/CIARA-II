@@ -15,7 +15,7 @@ download: '',
 group: '',
 owner: '',
 convert: '',
-search: '',
+search: ''
 };
   
 for (let i = 0; i < commands.length; i++) {
@@ -42,8 +42,17 @@ ${menu.group}
 ${menu.owner}
 
 > *CONVERT COMMANDS* 🔄
-  
-  
+    
+${menu.convert}
+    
+> *SEARCH COMMANDS* 🔍
+
+${menu.search}
+    
+GANGSTER MADE IT 🇿🇼
+`
+await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+
 }catch(e){
 console.log(e)
 reply(`${e}`)
