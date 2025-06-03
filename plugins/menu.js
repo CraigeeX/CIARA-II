@@ -51,7 +51,9 @@ ${menu.search}
     
 GANGSTER MADE IT 🇿🇼
 `
-await conn.sendMessage(from,{text:madeMenu},{quoted:mek})
+await conn.sendMessage(from,{image:{url:"https://files.catbox.moe/5qyim2.jpg"},caption:madeMenu},{quoted:mek})
+
+
 
 }catch(e){
 console.log(e)
